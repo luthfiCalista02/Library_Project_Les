@@ -7,7 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    {{ auth()->user()->email }}
     <form action="/lihatkategori">
         @csrf
         <h3>Data Kategori</h3>

@@ -28,7 +28,7 @@
 
     <!-- Nav Item - Charts -->
     <li class="nav-item">
-        <a class="nav-link" href="charts.html">
+        <a class="nav-link" href="/kategori">
             <i class="fas fa-fw fa-bookmark"></i>
             <span>Kategori Buku</span></a>
     </li>

@@ -54,7 +54,12 @@ Route::get('/hapuspenerbit/{id}', [PenerbitController::class, 'hapus']);
     //pinjam buku
 Route::get('/pinjambuku', [PinjamBukuController::class, 'index']);
 
+    //tambah pinjaman
+Route::get('/tambahpeminjaman', [PinjamBukuController::class, 'tambahpeminjaman']);
+
     //route logout
 Route::get('/logout', [AuthController::class, 'logout']);
+
+Route::post('/simpantransaksi', [PinjamBukuController::class, 'simpantransaksi']);
 
 });

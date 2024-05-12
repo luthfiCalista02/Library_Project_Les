@@ -111,6 +111,7 @@
 
     <!-- Page level custom scripts -->
     <script src="/js/demo/datatables-demo.js"></script>
+    @stack('jsfooter')
 
 </body>
 

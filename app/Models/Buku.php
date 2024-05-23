@@ -20,4 +20,12 @@ class Buku extends Model
     ];
 
     protected $table ='bukus';
+
+    //relasi ke table kategori
+    public function kategori() {
+        return $this->belongsTo(Kategori::class, 'kategori_id', 'id');
+    }
+    public function penerbit() {
+        return $this->belongsTo(Penerbit::class, 'penerbit_id', 'id');
+    }
 }

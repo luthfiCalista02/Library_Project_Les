@@ -62,4 +62,5 @@ Route::get('/logout', [AuthController::class, 'logout']);
 
 Route::post('/simpantransaksi', [PinjamBukuController::class, 'simpantransaksi']);
 
+Route::get('/caribuku/{id}', [PinjamBukuController::class, 'caribuku']);
 });
